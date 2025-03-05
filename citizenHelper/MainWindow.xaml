@@ -1,0 +1,92 @@
+﻿<Window x:Class="citizenHelper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:citizenHelper"
+        mc:Ignorable="d"
+        Title="Main Menu" MinHeight="500" MinWidth="800" Icon="/coat.png"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Background>
+        <ImageBrush ImageSource="/back.jpeg" Opacity="0.7"/>
+    </Window.Background>
+
+    <Grid Background="White" Opacity="0.9">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Margin="10">
+            <TextBlock Text="Select Language:" FontSize="14"/>
+            <ComboBox SelectionChanged="LanguageSelector_SelectionChanged">
+                <ComboBoxItem Content="English" Tag="en"/>
+                <ComboBoxItem Content="Afrikaans" Tag="af"/>
+                <ComboBoxItem Content="Zulu" Tag="zu"/>
+                <ComboBoxItem Content="Xhosa" Tag="xh"/>
+            </ComboBox>
+        </StackPanel>
+
+        <!-- Header Section -->
+        <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="20">
+            <TextBlock FontSize="24" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{DynamicResource Welcome}">
+                <Bold></Bold>
+            </TextBlock>
+        </StackPanel>
+
+        <!-- Sidebar for list of reports -->
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="20">
+            <TextBlock Text="{DynamicResource ListOfReports}" FontSize="18" HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,0,0,10">
+                <Bold></Bold>
+            </TextBlock>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Height="205">
+                <ListBox Name="ReportsListBox" Margin="10">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <TextBlock Text="{Binding Location}" FontWeight="Bold"/>
+                                <TextBlock Text="{Binding Category}"/>
+                                <TextBlock Text="{Binding Description}" TextWrapping="Wrap"/>
+                                <Image Source="{Binding ImagePath}" Width="200" Height="100" Margin="10"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </ScrollViewer>
+        </StackPanel>
+
+        <!-- Main Content Area inside a ScrollViewer -->
+        <ScrollViewer Grid.Row="1" Grid.Column="1" Margin="20" VerticalScrollBarVisibility="Hidden">
+            <WrapPanel HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                <!--MouseDown event made to open report window-->
+                <StackPanel Width="150" Margin="10" MouseDown="StackPanel_MouseDown">
+                    <Image Source="/undraw_News_re_6uub.png" Width="150" Height="Auto"/>
+                    <TextBlock Text="{DynamicResource ReportIssue}" FontSize="16" HorizontalAlignment="Center" TextWrapping="Wrap">
+                        <Bold></Bold>
+                    </TextBlock>
+                </StackPanel>
+
+                <!---MouseDown event made to open events and announcements window-->
+                <StackPanel Width="150" Margin="10" MouseDown="AnnouncementsEvents_MouseDown">
+                    <Image Source="/undraw_Events_re_98ue.png" Width="150" Height="Auto"/>
+                    <TextBlock Text="{DynamicResource AnnouncementsEvents}" FontSize="16" HorizontalAlignment="Center" TextWrapping="Wrap">
+                        <Bold></Bold>
+                    </TextBlock>
+                </StackPanel>
+
+                <!--Coming Soon (POE)-->
+                <StackPanel Width="150" Margin="10" MouseDown="reportStatus_MouseDown">
+                    <Image Source="/undraw_online_stats_0g94.png" Width="150" Height="Auto"/>
+                    <TextBlock Text="{DynamicResource RequestStatus}" FontSize="16" HorizontalAlignment="Center" TextWrapping="Wrap">
+                        <Bold></Bold>
+                    </TextBlock>
+                </StackPanel>
+            </WrapPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

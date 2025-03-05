@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="back.jpeg" />
+    <None Remove="coat.png" />
+    <None Remove="undraw_Events_re_98ue.png" />
+    <None Remove="undraw_News_re_6uub.png" />
+    <None Remove="undraw_online_stats_0g94.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PDFsharp" Version="6.1.1" />
+    <PackageReference Include="Syncfusion.PdfViewer.Windows" Version="27.1.52" />
+    <PackageReference Include="Syncfusion.PdfViewer.WPF" Version="27.1.52" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="back.jpeg" />
+    <Resource Include="coat.png" />
+    <Resource Include="undraw_Events_re_98ue.png" />
+    <Resource Include="undraw_News_re_6uub.png" />
+    <Resource Include="undraw_online_stats_0g94.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="UserSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>UserSettings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="UserSettings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>UserSettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

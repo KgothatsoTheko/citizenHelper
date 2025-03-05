@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|c:\\users\\user\\desktop\\school\\semester 2\\prog7312\\st10092141_kgothatsotheko_prog7312_poe\\citizenhelper\\citizenhelper\\recommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|solutionrelative:recommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|c:\\users\\user\\desktop\\school\\semester 2\\prog7312\\st10092141_kgothatsotheko_prog7312_poe\\citizenhelper\\citizenhelper\\eventsannouncementsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|solutionrelative:eventsannouncementsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|c:\\users\\user\\desktop\\school\\semester 2\\prog7312\\st10092141_kgothatsotheko_prog7312_poe\\citizenhelper\\citizenhelper\\reportheap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|solutionrelative:reportheap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|c:\\users\\user\\desktop\\school\\semester 2\\prog7312\\st10092141_kgothatsotheko_prog7312_poe\\citizenhelper\\citizenhelper\\reportstatus.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|solutionrelative:reportstatus.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|c:\\users\\user\\desktop\\school\\semester 2\\prog7312\\st10092141_kgothatsotheko_prog7312_poe\\citizenhelper\\citizenhelper\\reportdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|solutionrelative:reportdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|c:\\users\\user\\desktop\\school\\semester 2\\prog7312\\st10092141_kgothatsotheko_prog7312_poe\\citizenhelper\\citizenhelper\\avlnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|solutionrelative:avlnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|c:\\users\\user\\desktop\\school\\semester 2\\prog7312\\st10092141_kgothatsotheko_prog7312_poe\\citizenhelper\\citizenhelper\\graphnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|solutionrelative:graphnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|c:\\users\\user\\desktop\\school\\semester 2\\prog7312\\st10092141_kgothatsotheko_prog7312_poe\\citizenhelper\\citizenhelper\\reportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|solutionrelative:reportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|c:\\users\\user\\desktop\\school\\semester 2\\prog7312\\st10092141_kgothatsotheko_prog7312_poe\\citizenhelper\\citizenhelper\\reportstatus.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9DD2CDB8-FFAF-45FB-B606-202D596479AA}|citizenHelper.csproj|solutionrelative:reportstatus.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecommendationService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\RecommendationService.cs",
+              "RelativeDocumentMoniker": "RecommendationService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\RecommendationService.cs",
+              "RelativeToolTip": "RecommendationService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T06:34:15.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventsAnnouncementsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\EventsAnnouncementsViewModel.cs",
+              "RelativeDocumentMoniker": "EventsAnnouncementsViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\EventsAnnouncementsViewModel.cs",
+              "RelativeToolTip": "EventsAnnouncementsViewModel.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T06:33:13.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReportManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\ReportManager.cs",
+              "RelativeDocumentMoniker": "ReportManager.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\ReportManager.cs",
+              "RelativeToolTip": "ReportManager.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwBsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T16:46:21.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportHeap.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\ReportHeap.cs",
+              "RelativeDocumentMoniker": "ReportHeap.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\ReportHeap.cs",
+              "RelativeToolTip": "ReportHeap.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T16:45:32.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GraphNode.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\GraphNode.cs",
+              "RelativeDocumentMoniker": "GraphNode.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\GraphNode.cs",
+              "RelativeToolTip": "GraphNode.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T16:44:23.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AVLNode.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\AVLNode.cs",
+              "RelativeDocumentMoniker": "AVLNode.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\AVLNode.cs",
+              "RelativeToolTip": "AVLNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T16:43:07.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReportData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\ReportData.cs",
+              "RelativeDocumentMoniker": "ReportData.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\ReportData.cs",
+              "RelativeToolTip": "ReportData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T16:41:36.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReportStatus.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\ReportStatus.xaml.cs",
+              "RelativeDocumentMoniker": "ReportStatus.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\ReportStatus.xaml.cs",
+              "RelativeToolTip": "ReportStatus.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAiwD0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T16:41:00.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReportStatus.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\ReportStatus.xaml",
+              "RelativeDocumentMoniker": "ReportStatus.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\School\\Semester 2\\PROG7312\\ST10092141_KgothatsoTheko_PROG7312_POE\\citizenHelper\\citizenHelper\\ReportStatus.xaml",
+              "RelativeToolTip": "ReportStatus.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-14T16:38:36.925Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

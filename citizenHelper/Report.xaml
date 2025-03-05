@@ -1,0 +1,57 @@
+﻿<Window x:Class="citizenHelper.Report"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:citizenHelper"
+        mc:Ignorable="d"
+        Title="Report Issue"  MinHeight="500" MinWidth="800" Icon="/coat.png">
+    <Window.Background>
+        <ImageBrush ImageSource="/back.jpeg" Opacity="0.7"/>
+    </Window.Background>
+
+    <Grid Background="White" Opacity="0.9">
+        <StackPanel>
+            <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="20">
+                <TextBlock FontSize="24" HorizontalAlignment="Center" TextWrapping="Wrap">
+                    <Bold>Report Issue</Bold>
+                </TextBlock>
+            </StackPanel>
+            <WrapPanel HorizontalAlignment="Center">
+                <!-- Location Input -->
+                <TextBlock Text="Location:" Margin="10"/>
+                <TextBox Name="LocationTextBox" Width="200" Margin="10"/>
+            </WrapPanel>
+
+            <!-- Category Dropdown -->
+            <WrapPanel HorizontalAlignment="Center">
+                <TextBlock Text="Category:" Margin="10"/>
+                <ComboBox Name="CategoryComboBox" Width="200" Margin="10">
+                    <ComboBoxItem Content="Utilities"/>
+                    <ComboBoxItem Content="Emergency"/>
+                    <ComboBoxItem Content="Road"/>
+                </ComboBox>
+            </WrapPanel>
+
+            <!-- Description RichTextBox -->
+            <WrapPanel HorizontalAlignment="Center">
+                <TextBlock Text="Description:" Margin="10" VerticalAlignment="Center"/>
+                <RichTextBox Name="DescriptionRichBox" Width="200" Height="100" Margin="10"/>
+            </WrapPanel>
+
+            <!-- Image Upload -->
+            <WrapPanel HorizontalAlignment="Center">
+                <TextBlock Text="Upload File:" VerticalAlignment="Center" Margin="10"/>
+                <Button Content="Upload File" Width="100" Height="30" Margin="10" Click="UploadImage_Click"/>
+                <Image Name="PreviewImage" Width="200" Height="100" Margin="10"/>
+            </WrapPanel>
+
+            <!-- Submit -->
+            <WrapPanel HorizontalAlignment="Center">
+                <Button Content="Submit" Width="200" Margin="10" Click="SaveButton_Click"/>
+            </WrapPanel>
+        </StackPanel>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=netstandard">
+    <sys:String x:Key="Welcome">Welcome</sys:String>
+    <sys:String x:Key="ListOfReports">List Of Reports</sys:String>
+    <sys:String x:Key="ReportIssue">Report Issue</sys:String>
+    <sys:String x:Key="AnnouncementsEvents">Announcements/Events</sys:String>
+    <sys:String x:Key="RequestStatus">Request Status</sys:String>
+    
+</ResourceDictionary>

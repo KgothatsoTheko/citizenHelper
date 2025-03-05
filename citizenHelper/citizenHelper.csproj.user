@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Events&amp;Announcements.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Report.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportStatus.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Afrikaans.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="English.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Events&amp;Announcements.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Report.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportStatus.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Xhosa.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Zulu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
