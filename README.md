@@ -1,4 +1,4 @@
-# CitizenHelper
+![1](https://github.com/user-attachments/assets/37effd43-281f-4726-b4f3-917f6e6db2e7)# CitizenHelper
 
 CitizenHelper is a Windows Presentation Foundation (WPF) C# application designed to provide South African citizens access to municipal services and information about local events and announcements. The application offers features such as reporting issues, requesting status updates, event searches based on categories and dates, personalized recommendations, and multilingual support to enhance user experience.
 
@@ -17,6 +17,13 @@ CitizenHelper is a Windows Presentation Foundation (WPF) C# application designed
 - **Personalized Recommendations:** Receive event recommendations based on your search patterns and preferences.
 - **Multilingual Support:** Switch between multiple languages to navigate the application in your preferred language.
 - **Data Persistence:** Events and user data are stored locally without the need for external databases or software.
+
+## Screens
+![1](https://github.com/user-attachments/assets/7ddc6e24-f751-4073-a73b-d0994422fbe0)
+![2](https://github.com/user-attachments/assets/e9f7e0ef-2f8e-487e-90fe-0735fd3d6607)
+![3](https://github.com/user-attachments/assets/7600795e-0a8d-4de8-b991-8af03042d8c2)
+![4](https://github.com/user-attachments/assets/aa162726-acee-4274-b87c-1ecc2c3093c1)
+
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
